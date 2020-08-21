@@ -3,7 +3,9 @@
         "module": "esnext",
         "target": "es5",
         "moduleResolution": "node",
+        "baseUrl": ".",
         "strict": true,
+        "esModuleInterop": true,
         "paths": {
             "@/*": [
                 "src/*"

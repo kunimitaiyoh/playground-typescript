@@ -2,7 +2,14 @@
     "name": "experimental",
     "version": "0.0.0",
     "private": true,
-    "scripts": {},
+    "scripts": {
+        "test": "jest"
+    },
     "dependencies": {},
-    "devDependencies": {}
+    "devDependencies": {
+        "@types/jest": "^26.0.10",
+        "jest": "^26.4.1",
+        "ts-jest": "^26.2.0",
+        "typescript": "^3.9.7"
+    }
 }
